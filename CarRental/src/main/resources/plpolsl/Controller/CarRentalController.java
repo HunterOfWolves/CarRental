@@ -21,7 +21,7 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
     carModelo.addCar(new CarModel("Car3","Model3",20000));
     ArrayList<CarModel> carList = carModelo.getCars();
     
-    request.setAttribute("carList", carList);
+    request.setAttribute("cars", carList);
     request.getRequestDispatcher("index.jsp").forward(request, response);
 }
 }

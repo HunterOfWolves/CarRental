@@ -13,7 +13,12 @@ public class CarRentalModel {
         carList.add(car);
     }
 
+
     public ArrayList<CarModel> getCars() {
-        return carList;
+    return carList;
+    }
+
+    public void setCars(ArrayList<CarModel> carList) {
+    this.carList = carList;
     }
 }

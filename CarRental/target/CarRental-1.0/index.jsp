@@ -19,7 +19,7 @@
             <th>Model</th>
             <th>Cena</th>
         </tr>
-        <c:forEach var="car" items="${carList}">
+        <c:forEach var="car" items="${cars}">
             <tr>
                 <td>${car.carName}</td>
                 <td>${car.carModel}</td>
